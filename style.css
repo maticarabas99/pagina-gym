@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    margin: 20px 60px;
+    padding: 0 60px;
+    margin-bottom: 0%;
+    border: 5px double black;
+}
+
+.logo img{
+    height: 100px;
+    width:  100px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 20px;
+}
+
+main{
+    background-color: white;
+    padding: 500px;
+    margin: 60px;
+    margin-top: 0%;
+    border: 5px double black;
+    border-top: none;
+}
