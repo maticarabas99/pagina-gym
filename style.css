@@ -1,6 +1,8 @@
 body{
     background-color: #e4e3e3;
     font-family: 'League Spartan', sans-serif;
+    max-width: 1200px;
+    min-width: 900px;
 }
 header{
     display: flex;
@@ -39,7 +41,7 @@ main{
     padding: 30px;
     display: flex;
     justify-content: space-between;
-    gap: 40px;
+    gap: 10%;
 }
 .portada img{
     height: 30%;
