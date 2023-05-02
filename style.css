@@ -2,7 +2,7 @@ body{
     background-color: #e4e3e3;
     font-family: 'League Spartan', sans-serif;
     max-width: 1200px;
-    min-width: 850px;
+    min-width: 840px;
 }
 header{
     display: flex;
