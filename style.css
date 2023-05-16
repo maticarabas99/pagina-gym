@@ -35,6 +35,7 @@ header img{
     font-size: 20px;
     list-style-type: none;
     padding: 0;
+    
 }
 .nav-img{
 height: 60px;
@@ -261,12 +262,21 @@ footer{
         margin: 0;
         position: fixed;
         width: 100%;
+        height: 50px;
+       }
+       header img {
+        height: 50px;
+        width: 50px;
+       }
+       .nav-img {
+        height: 30px;
+        width: 30px;
        }
       
        main{
         margin: 0 0 5px;
         padding: 20px;
-        margin-top: 90px;
+        margin-top: 50px;
        
        }
        footer{
@@ -303,15 +313,17 @@ footer{
     width: 100%;
     height: 100vh;
     position: absolute;
-    top: 80px;
+    top: 49px;
     left: 0;
-    justify-content: space-around;
     flex-direction: column;
     padding-bottom: 80px;
-    font-size: 40px;
-    margin: 10px 0;
+    font-size: 20px;
+    margin: 0;
     display: none;
+    gap: 100px;
+    padding: 50px;
    }
+
    .nav-img{
     display: block;
    }
@@ -359,7 +371,7 @@ footer{
         height: 250px;
     }
     .navbar-list{
-        font-size: 30px;
+        font-size: 20px;
     }
 
 }
